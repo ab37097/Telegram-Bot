@@ -1,0 +1,23 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "got": "^12.0.1",
+    "nodemon": "^2.0.15",
+    "stream": "^0.0.2",
+    "telegraf": "^4.7.0"
+  }
+}
